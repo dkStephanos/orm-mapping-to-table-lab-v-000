@@ -7,5 +7,8 @@ class Student
     @grade = grade
   end
 
+  def id
+    @id
+  end
   
 end
