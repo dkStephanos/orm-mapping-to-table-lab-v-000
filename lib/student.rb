@@ -10,5 +10,5 @@ class Student
   def id
     @id
   end
-  
+
 end
