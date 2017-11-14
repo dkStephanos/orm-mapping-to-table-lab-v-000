@@ -41,6 +41,7 @@ describe "Student" do
       Student.create_table
       josh.save
       expect(josh.id).to eq(1)
+      binding.pry
       expect(DB[:conn].execute("SELECT * FROM students")).to eq([[1, "Josh", "9th"]])
     end
   end
